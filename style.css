@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    /* background-color: lawngreen; */
+}
+
+.main{
+    height: 75%;
+    background-color: aqua;
+    background-image: url(/imags.jpg);
+    /* background: linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,15) 20%)    ; */
+    /* background-image:linear-gradient(to top, rgba(0, 0, 0, 0.2) 20, rgba(0, 0, 0, 0) 20, rgba(0, 0, 0, 0.8) 20);; */
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+                       rgba(0, 0, 0, 0.7)), url("/imags.jpg");
+
+}
+
+.nav{
+    height: 12%;
+     /* background-color: rgb(84, 134, 35);  */
+    display: flex;
+}
+
+.left-nav{
+    width: 50%;
+    height: 100%;
+    /* background-color: coral;  */
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.left-nav h1{
+    font-size: 2.8vw;
+    color: red;
+    /* padding-left: vw; */
+}
+
+.right-nav{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(146, 76, 51); */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+     padding-right: 10vw; 
+
+}
+
+.right-nav button{
+    margin: 0 1vw;
+}
+
+.languages{
+    padding: .5vw 1.3vw;
+    border-radius: 10px;
+    border: 2.7px solid white;
+    background-color: transparent;
+    font-size: .95vw;
+    color: white;
+    backdrop-filter: blur(5px);
+}
+
+.Signin{
+    padding: .3vw .8vw;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(211, 9, 9);
+    font-size: .8vw;
+    font-weight: 600;
+    color: white;
+    backdrop-filter: blur(5px);  
+}
+
+
+.container{
+    height: 70vh;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container h1{
+
+    font-size: 3vw;
+    color: white;
+}
+
+.container h3{
+
+    color: white;
+
+    font-size: 1.5vw;
+    font-weight: 500;
+    padding: 1vw;
+}
+
+.container p{
+
+    font-size: 1.4vw;
+    color: white;
+    padding-bottom: .8vw;
+
+}
+
+.input-content button{
+    margin: 0 .8vw;
+}
+
+.input-content input{
+    /* margin: 1vw 2vw; */
+    padding: .6vw 2vw;
+    font-size: .9vw;
+    color: rgb(159, 159, 159);
+    background-color: transparent;
+    border: 1px solid rgb(199, 198, 198);
+    backdrop-filter: blur(2px);  
+
+    border-radius: 5px;
+}
+
+.input-content .gets{
+    padding: .6vw 1.5vw;
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(209, 11, 11);
+    border: none;
+
+    border-radius: 5px;
+}
